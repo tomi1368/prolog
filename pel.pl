@@ -18,6 +18,14 @@ jugadorEstrella(futbolista):-
 
 meteGolesPorPartido(fubtolista,_,cantGoles), esMayorAlPromedio(cantGoles,promedio), cantGoles is promedio * 2.
 
+noTieneMama(pepe)
+
+come(juan,lechuga)
+
+votoUnPeronista(carlos,4,peron)
+
+esMayorAlPromedio(5,2)
+
 cobraAyuda(Persona):-
 	noTieneMama(Persona),
 	not(esRico(Persona)).
@@ -26,7 +34,7 @@ esSaludable(Persona):- come(Persona,Alimento), esVerdura(Alimento).
 
 
 
-?  esSaludable(pepe,radicheta)
-?  noEsFeliz(pepe)
+?  esSaludable(pepe,radicheta) //Yes
+?  noEsFeliz(pepe)	// Yes
 
 

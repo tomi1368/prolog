@@ -1,3 +1,5 @@
+La importancia actualmente del paradigma logico se encuentra en la implementacion de la inteligencia artificial. Fue una de las ramas de programacion que mas crecio en los ultimos años. 
+
 
 El predicado 2 representa la relación que define un hecho, el cual se usa para evaluar la condición en un planteo de problema.
 El predicado 7 representa un conjunto de hechos que inicialmente representa una conclusión “si :=”. Este es seguido por una o mas relaciones de condición.
@@ -8,4 +10,4 @@ esTierno(Persona):- forall(dulce(Alimento), leGusta(Persona, Alimento)).
 si le paso una incógnita tal que esTierno(X), la primera consulta va  a ser leGusta(Persona,Alimento) y por cada una de las consultas tiene que verificar esDulce().
 El primer resultado van a ser todos los pares (persona,alimento) relacionados por leGusta. Entonces, el forall sólo se va a verificar si cualquier cosa que le guste a alguien, no importa a quién, es dulce.
 
-Las diferencias que encontré fueron que: en el lógico no hay tipos, a diferencia del funcional los datos son finitos y tienen funciones de primer orden y la que creo que es más importante es que en este paradigma se especifica qué debe hacer el programa y no cómo hacerlo.
+Las diferencias que encontré fueron que: en el lógico no hay tipos, a diferencia del funcional los datos son finitos y tienen funciones de primer orden y la que creo que es más importante es que en este paradigma se especifica qué debe hacer el programa y no cómo hacerlo. La similitud con el paradigma funcional es que se consideran lenguajes declarativos.
